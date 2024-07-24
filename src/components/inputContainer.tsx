@@ -2,7 +2,7 @@ export function InputContainer() {
   return (
     <form className="flex flex-col w-[864px] m-auto space-y-3">
       <div className="flex justify-between">
-        <h1 className="text-lg font-bold text-base-subtitle">Publicações</h1>
+        <h3 className="text-lg font-bold text-base-subtitle">Publicações</h3>
         <span className="text-sm text-base-spam">6 publicações</span>
       </div>
       <input

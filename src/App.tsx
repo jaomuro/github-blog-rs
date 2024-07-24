@@ -1,15 +1,6 @@
-import { CardContainer } from './components/cardContaniner'
-import { Header } from './components/header'
-import { InputContainer } from './components/inputContainer'
-import { ProfileCard } from './components/profileCard'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
 
 export function App() {
-  return (
-    <>
-      <Header />
-      <ProfileCard></ProfileCard>
-      <InputContainer />
-      <CardContainer />
-    </>
-  )
+  return <RouterProvider router={router} />
 }
