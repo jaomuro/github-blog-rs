@@ -9,14 +9,21 @@ export default {
       backgroundColor: {
         'base-label': '#3A536B',
         'base-profile': '#0B1B2B',
+        'base-input': '#040F1A',
+        'base-backgroung': '#071422',
       },
       textColor: {
         'base-text': '#AFC2D4',
         'base-label': '#3A536B',
         'brand-blue': '#3294F8',
+        'base-subtitle': '#C4D4E3',
+        'base-spam': '#7B96B2',
       },
       fontFamily: {
         sans: ['Nunito', 'sans-serif'],
+      },
+      borderColor: {
+        'base-border': '#1C2F41',
       },
     },
   },

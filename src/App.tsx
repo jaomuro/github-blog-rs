@@ -1,4 +1,5 @@
 import { Header } from './components/header'
+import { InputContainer } from './components/inputContainer'
 import { ProfileCard } from './components/profileCard'
 
 export function App() {
@@ -6,6 +7,8 @@ export function App() {
     <>
       <Header />
       <ProfileCard></ProfileCard>
+      <InputContainer />
+      <h1>Final</h1>
       {/* <main>
         <div>Primeiro</div>
         <div>Segundo</div>

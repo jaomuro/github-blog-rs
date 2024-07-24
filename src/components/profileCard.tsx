@@ -18,8 +18,8 @@ export function ProfileCard() {
         <div className="flex flex-col gap-2 text-base-text">
           <div className="flex justify-between">
             <h1 className="font-bold text-2xl">Jhon Cruz</h1>
-            <a href="#" className="font-bold">
-              <span className="flex gap-2 text-brand-blue text-xs items-center">
+            <a href="#" className="font-bold group">
+              <span className="flex gap-2 text-brand-blue text-xs items-center group-hover:border-b group-hover:border-[#3294F8]">
                 <p>GITHUB</p>
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
               </span>
