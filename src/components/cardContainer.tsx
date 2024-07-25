@@ -2,7 +2,7 @@ function CardPost() {
   return (
     <div className="flex flex-col w-[416px] h-[260px] rounded-[10px] bg-base-post border  border-[#112131] p-8 space-y-5 hover:border-[#3A536B]">
       <div className="flex justify-between ">
-        <h1 className="font-bold text-[20px] leading-[32px] w-[283px] text-base-title ">
+        <h1 className="font-bold text-[20px] leading-[32px] w-[283px] text-base-title overflow-hidden text-ellipsis">
           JavaScript data types and data structures
         </h1>
         <span className="text-base-spam text-sm">Há 1 dia</span>
